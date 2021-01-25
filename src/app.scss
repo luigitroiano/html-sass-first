@@ -1,0 +1,26 @@
+$colorPrimary: white;
+$colorH2: #74001a;
+$pSize: 20px;
+body{
+  background: rgb(63,94,251);
+background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+text-align: center;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  color: $colorPrimary;
+}
+h2, h3{
+  color: $colorH2;
+}
+p{
+  font-size: $pSize;
+}

@@ -1,0 +1,25 @@
+body {
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+}
+
+h2, h3 {
+  color: #74001a;
+}
+
+p {
+  font-size: 20px;
+}
